@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.auth-page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: radial-gradient(
+      ellipse at bottom,
+      rgba(104, 128, 138, 0.4) 10%,
+      rgba(138, 114, 76, 0) 40%
+    ),
+    linear-gradient(to bottom, rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%),
+    linear-gradient(135deg, #670d10 0%, #092756 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.signup-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.signup-container h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-container input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.signup-container input:focus {
+  border-color: #4a77d4;
+  box-shadow: 0 0 5px rgba(74, 119, 212, 0.4);
+  background-color: #fdfdfd;
+}
+
+.signup-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a77d4;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-container button:hover {
+  background-color: #3b5fb4;
+}
+
+.signup-container button:disabled {
+  background-color: #8ba6dd;
+  cursor: not-allowed;
+}
+
+.signup-container .error-text {
+  color: red;
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.signup-container .already-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #444;
+}
+
+.signup-container .login-link {
+  color: #4a77d4;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.signup-container .login-link:hover {
+  text-decoration: underline;
+}
