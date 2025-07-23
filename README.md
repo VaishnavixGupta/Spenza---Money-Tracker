@@ -35,7 +35,7 @@ A web application to manage, track, and analyze daily expenses. Built using the 
 1. *Clone the repository*
    
    ```bash
-   git clone https://github.com/your-username/expense-management-system.git
+   git clone https://github.com/your-username/Spenza---Money-Tracker.git
    cd expense-management-system
 
 2. *Setup Backend*
